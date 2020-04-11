@@ -2,7 +2,7 @@ export default {
   mode: 'universal',
 
   router: {
-    base: '/AI-JANKEN/'
+    base: `/${process.env.npm_package_name}/`
   },
 
   /*
