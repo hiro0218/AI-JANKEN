@@ -25,7 +25,7 @@ jobs:
           ${{ runner.os }}-node-
 
     - name: install
-      run: yarn ci
+      run: yarn install
 
     - name: test
       run: yarn test
