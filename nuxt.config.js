@@ -1,5 +1,10 @@
 export default {
   mode: 'universal',
+
+  router: {
+    base: '/AI-JANKEN/'
+  },
+
   /*
    ** Headers of the page
    */
