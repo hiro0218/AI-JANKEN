@@ -1,7 +1,7 @@
 {
   "name": "AI-JANKEN",
   "version": "1.0.0",
-  "description": "AI Janken Project.",
+  "description": "最新のウェブ技術を使って作成された「絶対に負けない『じゃんけん』AI」です。",
   "author": "hiro0218",
   "private": true,
   "scripts": {
