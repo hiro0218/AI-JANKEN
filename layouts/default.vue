@@ -4,7 +4,16 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -15,39 +24,26 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  line-height: 1.8;
 }
 
-.button--green {
-  display: inline-block;
-  padding: 10px 30px;
-  border: 1px solid #3b8070;
-  border-radius: 4px;
-  color: #3b8070;
-  text-decoration: none;
-}
+button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  appearance: none;
 
-.button--green:hover {
-  background-color: #3b8070;
-  color: #fff;
-}
-
-.button--grey {
-  display: inline-block;
-  margin-left: 15px;
-  padding: 10px 30px;
-  border: 1px solid #35495e;
-  border-radius: 4px;
-  color: #35495e;
-  text-decoration: none;
-}
-
-.button--grey:hover {
-  background-color: #35495e;
-  color: #fff;
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 3px rgba(83, 83, 83, 0.25);
+  }
 }
 </style>
