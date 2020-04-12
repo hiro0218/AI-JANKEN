@@ -21,21 +21,24 @@
     }
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.12.2"
   },
   "devDependencies": {
     "@hiro0218/stylelint-config": "^1.1.0",
-    "@nuxtjs/eslint-config": "^2.0.0",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/stylelint-module": "^3.1.0",
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-module": "^1.1.0",
+    "@nuxtjs/stylelint-module": "^3.2.2",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-nuxt": ">=0.5.2",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
     "stylelint": "^10.1.0"
   }
 }
